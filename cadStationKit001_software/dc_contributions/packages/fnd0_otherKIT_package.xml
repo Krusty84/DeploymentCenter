@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+Copyright 2016 Siemens Product Lifecycle Management Software Inc. All Rights Reserved. ================================================================================
+Copyright 2016.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved. ================================================================================
+Copyright 2016 Siemens Product Lifecycle Management Software Inc. All Rights Reserved.
+-->
+<package packageId="fnd0_otherKITpackage" guid="14A889DA76GAZG26A69ABE319EB8QQ">
+	<displayName value="${packageId}.displayName" />
+	<description value="${packageId}.description" />
+	<textBundle value="${packageId}Bundle.xml" />
+	<contentType value="application" />
+	<artifact artifactType="fnd0_otherDummyArtifact" guid="F5UFMSBSKPPPFBY14RTRW18B3Y3EP0D5">
+		<deploymentActions>
+			<install>
+				<target name="fileProcessing" description="Perform the file deployment actions including unzip, copy, and delete.">
+				</target>
+				<target name="preDatabaseUpdate" description="Perform the operations that must be completed prior to the database being updated.">
+				</target>
+				<target name="databaseUpdate" description="Perform the operations that must be completed prior to the database being updated.">
+				</target>
+				<target name="postDatabaseUpdate" description="Perform the operations that must be completed after the database update has occurred.">
+				</target>
+			</install>
+		</deploymentActions>
+	</artifact>
+	<artifact artifactType="fnd0_otherUTILSArtifact" guid="F5UFMSBSKTTTFBY14RTR14F88Y3EP0D5">
+		<deploymentActions>
+			<install>
+				<target name="fileProcessing" description="Perform the file deployment actions including unzip, copy, and delete.">
+				</target>
+				<target name="preDatabaseUpdate" description="Perform the operations that must be completed prior to the database being updated.">
+				</target>
+				<target name="databaseUpdate" description="Perform the operations that must be completed prior to the database being updated.">
+				</target>
+				<target name="postDatabaseUpdate" description="Perform the operations that must be completed after the database update has occurred.">
+				</target>
+			</install>
+		</deploymentActions>
+	</artifact>
+	<artifact artifactType="fnd0_dataModelArtifact" guid="BE8C3F32B7B3BFEB9380945EF7QQ9324">
+		<deploymentActions>
+			<install>
+				<target name="fileProcessing" description="Perform the file deployment actions including unzip, copy, and delete.">
+				</target>
+				<target name="preDatabaseUpdate" description="Perform the operations that must be completed prior to the database being updated.">
+				</target>
+				<target name="databaseUpdate" description="Perform the operations that must be completed prior to the database being updated.">
+				</target>
+				<target name="postDatabaseUpdate" description="Perform the operations that must be completed after the database update has occurred.">
+				</target>
+			</install>
+		</deploymentActions>
+	</artifact>
+	<artifact artifactType="fnd0_serverArtifact" guid="HG3S1H3RRETZUBWRWO7CAZFBZ5JYBCBR">
+		<deploymentActions>
+			<install>
+				<target name="diagnosticChecks" description="Perform the diagnostic checks to ensure that the target machine and environment meets the minimum expectations.">
+				</target>
+				<target name="fileProcessing" description="Perform the file deployment actions including unzip, copy, and delete.">
+				</target>
+				<target name="preDatabaseUpdate" description="Perform the operations that must be completed prior to the database being updated.">
+				</target>
+				<target name="databaseUpdate" description="Perform the operations that are database dependent.">
+				</target>
+				<target name="postDatabaseUpdate" description="Perform the operations that must be completed after the database update has occurred.">
+				</target>
+			</install>
+		</deploymentActions>
+	</artifact>
+</package>

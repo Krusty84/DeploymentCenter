@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<displayStyle xmlns="http://www.siemens.com/deploymentcenter/model/common/jaxb" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.siemens.com/deploymentcenter/model/common/jaxb  ../schema/common-display-style.xsd">
+	<componentPropertyDisplayType id="selectedComponentPropertiesDisplay">
+		<refObject id="deployedComponentMap">
+			<refRowInstance whereAttributeId="deployableCompName" val="fnd0_dmuDummy" />
+			<propertyGroup id="fnd0_clientSettings" sequence="1">
+			</propertyGroup>
+			<propertyGroup id="generalSettings" sequence="2">
+			</propertyGroup>
+		</refObject>
+	</componentPropertyDisplayType>
+</displayStyle>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="fnd0_dmuTCVIS" owningProduct="cadcamcae" visible="true" optional="true" cardinality="*">
+	<displayName value="fnd0_dmuTCVIS.displayName" />
+	<description value="fnd0_dmuTCVIS.desc" />
+	<version value="1.0.0" />
+	<icon value="typeComponentTcThinClient48.svg" />
+	<featureArtifacts>
+		<supportedType value="fnd0_dmuTCVISArtifact" />
+	</featureArtifacts>
+	<propertyContribution>
+		<!-- Machine Settings -->
+		<property name="fnd0_dmuTCVIS.dc0_machine_name" displayName="fnd0_dmuTCVIS.dc0_machine_name.displayName" description="fnd0_dmuTCVIS.dc0_machine_name.desc" value="" type="Machine" isArray="false" isVisible="true" isEditable="true" isOptional="false" isQuickInstallParameter="true" isModifiableAfterInstall="false" validators="noEmptyFieldValidator,noTrailingSpaceValidator,noSpaceValidator,machinePlatformValidator,machineNameIEEEValidator">
+		</property>
+		<property name="fnd0_dmuTCVIS.dc0_machine_platform" displayName="fnd0_dmuTCVIS.dc0_machine_platform.displayName" description="fnd0_dmuTCVIS.dc0_machine_platform.desc" value="wntx64*" type="PlatformSelectionList" isArray="true" isVisible="true" isEditable="true" isOptional="false" isQuickInstallParameter="true" isModifiableAfterInstall="false">
+		</property>
+		<property name="fnd0_dmuTCVIS.massDeployCheck" displayName="fnd0_dmuTCVIS.massDeployCheck.displayName" description="fnd0_dmuTCVIS.massDeployCheck.desc" value="true*,false" type="boolean" isArray="true" isVisible="true" isEditable="true" isOptional="false" isQuickInstallParameter="true" isModifiableAfterInstall="false">
+		</property>
+		<!-- General  Settings -->
+		<property name="fnd0_TCVISInstallationPath" displayName="fnd0_TCVISInstallationPath.displayName" description="fnd0_TCVISInstallationPath.desc" value="C:\Siemens\TcVis" type="Directory" isArray="false" isVisible="true" isEditable="true" isOptional="false" isQuickInstallParameter="true" isModifiableAfterInstall="false" validators="platformValidator,installationPathValidator,noEmptyFieldValidator">
+		</property>
+		<property name="fnd0_TCVISLicenseServerPort" displayName="fnd0_TCVISLicenseServerPort.displayName" description="fnd0_TCVISLicenseServerPort.desc" value="28000" type="string" isArray="false" isVisible="true" isEditable="true" isOptional="false" isQuickInstallParameter="true" isModifiableAfterInstall="false" validators="portValidator,noEmptyFieldValidator,noTrailingSpaceValidator">
+		</property>
+		<property name="fnd0_TCVISLicenseServerName" displayName="fnd0_TCVISLicenseServerName.displayName" description="fnd0_TCVISLicenseServerName.desc" value="" type="string" isArray="false" isVisible="true" isEditable="true" isOptional="false" isQuickInstallParameter="true" isModifiableAfterInstall="false" validators="noEmptyFieldValidator,noTrailingSpaceValidator,noSpaceValidator">
+		</property>
+	</propertyContribution>
+</component>

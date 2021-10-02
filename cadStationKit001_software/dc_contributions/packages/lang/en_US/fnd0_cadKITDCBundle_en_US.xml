@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2016.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved. ==================================================
+@<COPYRIGHT>@
+-->
+<localization name="fnd0_cadKITpackage">
+    <property name="displayName" value="CAD/CAM/CAE KIT"/>
+    <property name="description" value=""/>
+</localization>

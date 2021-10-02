@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="fnd0_otherUTILS" owningProduct="cadcamcae" visible="true" optional="true" cardinality="*">
+	<displayName value="fnd0_otherUTILS.displayName" />
+	<description value="fnd0_otherUTILS.desc" />
+	<version value="1.0.0" />
+	<icon value="typeComponentTcThinClient48.svg" />
+	<featureArtifacts>
+		<supportedType value="fnd0_otherUTILSArtifact" />
+	</featureArtifacts>
+	<propertyContribution>
+		<!-- Machine Settings -->
+		<property name="fnd0_otherUTILS.dc0_machine_name" displayName="fnd0_otherUTILS.dc0_machine_name.displayName" description="fnd0_otherUTILS.dc0_machine_name.desc" value="" type="Machine" isArray="false" isVisible="true" isEditable="true" isOptional="false" isQuickInstallParameter="true" isModifiableAfterInstall="false" validators="noEmptyFieldValidator,noTrailingSpaceValidator,noSpaceValidator,machinePlatformValidator,machineNameIEEEValidator">
+		</property>
+		<property name="fnd0_otherUTILS.dc0_machine_platform" displayName="fnd0_otherUTILS.dc0_machine_platform.displayName" description="fnd0_otherUTILS.dc0_machine_platform.desc" value="wntx64*" type="PlatformSelectionList" isArray="true" isVisible="true" isEditable="true" isOptional="false" isQuickInstallParameter="true" isModifiableAfterInstall="false">
+		</property>
+		<property name="fnd0_otherUTILS.massDeployCheck" displayName="fnd0_otherUTILS.massDeployCheck.displayName" description="fnd0_otherUTILS.massDeployCheck.desc" value="true*,false" type="boolean" isArray="true" isVisible="true" isEditable="true" isOptional="false" isQuickInstallParameter="true" isModifiableAfterInstall="false">
+		</property>
+		<!-- General  Settings -->
+		<property name="fnd0_otherUTILS.7zIsNeed" displayName="fnd0_otherUTILS.7zIsNeed.displayName" description="fnd0_otherUTILS.7zIsNeed.desc" value="true,false*" type="boolean" isArray="true" isVisible="true" isEditable="true" isOptional="false" isQuickInstallParameter="true" isModifiableAfterInstall="false">
+		</property>
+		<property name="fnd0_7ZInstallationPath" displayName="fnd0_7ZInstallationPath.displayName" description="fnd0_7ZInstallationPath.desc" value="C:\Program Files\Utils\7z" type="Directory" isArray="false" isVisible="true" isEditable="true" isOptional="false" isQuickInstallParameter="false" isModifiableAfterInstall="false" validators="platformValidator,installationPathValidator,noEmptyFieldValidator">
+		</property>
+		<property name="fnd0_otherUTILS.NotepadPlusPlusIsNeed" displayName="fnd0_otherUTILS.NotepadPlusPlusIsNeed.displayName" description="fnd0_otherUTILS.NotepadPlusPlusIsNeed.desc" value="true,false*" type="boolean" isArray="true" isVisible="true" isEditable="true" isOptional="false" isQuickInstallParameter="true" isModifiableAfterInstall="false">
+		</property>
+		<property name="fnd0_NotepadPlusPlusInstallationPath" displayName="fnd0_NotepadPlusPlusInstallationPath.displayName" description="fnd0_NotepadPlusPlusInstallationPath.desc" value="C:\Program Files\Utils\NotepadPlusPlus" type="Directory" isArray="false" isVisible="true" isEditable="true" isOptional="false" isQuickInstallParameter="false" isModifiableAfterInstall="false" validators="platformValidator,installationPathValidator,noEmptyFieldValidator">
+		</property>
+		<property name="fnd0_otherUTILS.UCIsNeed" displayName="fnd0_otherUTILS.UCIsNeed.displayName" description="fnd0_otherUTILS.UCIsNeed.desc" value="true,false*" type="boolean" isArray="true" isVisible="true" isEditable="true" isOptional="false" isQuickInstallParameter="true" isModifiableAfterInstall="false">
+		</property>
+		<property name="fnd0_UCInstallationPath" displayName="fnd0_UCInstallationPath.displayName" description="fnd0_UCInstallationPath.desc" value="C:\Program Files\Utils\UCommander" type="Directory" isArray="false" isVisible="true" isEditable="true" isOptional="false" isQuickInstallParameter="false" isModifiableAfterInstall="false" validators="platformValidator,installationPathValidator,noEmptyFieldValidator">
+		</property>
+	</propertyContribution>
+</component>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="fnd0_cadcamcaeNX" owningProduct="cadcamcae" visible="true" optional="true" cardinality="*">
+	<displayName value="fnd0_cadcamcaeNX.displayName" />
+	<description value="fnd0_cadcamcaeNX.desc" />
+	<version value="1.0.0" />
+	<icon value="typeComponentTcThinClient48.svg" />
+	<featureArtifacts>
+		<supportedType value="fnd0_cadcamcaeNXArtifact" />
+	</featureArtifacts>
+	<propertyContribution>
+		<!-- Machine Settings -->
+		<property name="fnd0_cadcamcaeNX.dc0_machine_name" displayName="fnd0_cadcamcaeNX.dc0_machine_name.displayName" description="fnd0_cadcamcaeNX.dc0_machine_name.desc" value="" type="Machine" isArray="false" isVisible="true" isEditable="true" isOptional="false" isQuickInstallParameter="true" isModifiableAfterInstall="false" validators="noEmptyFieldValidator,noTrailingSpaceValidator,noSpaceValidator,machinePlatformValidator,machineNameIEEEValidator">
+		</property>
+		<property name="fnd0_cadcamcaeNX.dc0_machine_platform" displayName="fnd0_cadcamcaeNX.dc0_machine_platform.displayName" description="fnd0_cadcamcaeNX.dc0_machine_platform.desc" value="wntx64*" type="PlatformSelectionList" isArray="true" isVisible="true" isEditable="true" isOptional="false" isQuickInstallParameter="true" isModifiableAfterInstall="false">
+		</property>
+		<property name="fnd0_cadcamcaeNX.massDeployCheck" displayName="fnd0_cadcamcaeNX.massDeployCheck.displayName" description="fnd0_cadcamcaeNX.massDeployCheck.desc" value="true*,false" type="boolean" isArray="true" isVisible="true" isEditable="true" isOptional="false" isQuickInstallParameter="true" isModifiableAfterInstall="false">
+		</property>
+		<!-- General  Settings -->
+		<property name="fnd0_NXInstallationPath" displayName="fnd0_NXInstallationPath.displayName" description="fnd0_NXInstallationPath.desc" value="C:\Siemens\NX" type="Directory" isArray="false" isVisible="true" isEditable="true" isOptional="false" isQuickInstallParameter="true" isModifiableAfterInstall="false" validators="platformValidator,installationPathValidator,noEmptyFieldValidator">
+		</property>
+		<property name="fnd0_NXLicenseServerPort" displayName="fnd0_NXLicenseServerPort.displayName" description="fnd0_NXLicenseServerPort.desc" value="28000" type="string" isArray="false" isVisible="true" isEditable="true" isOptional="false" isQuickInstallParameter="true" isModifiableAfterInstall="false" validators="portValidator,noEmptyFieldValidator,noTrailingSpaceValidator">
+		</property>
+		<property name="fnd0_NXLicenseServerName" displayName="fnd0_NXLicenseServerName.displayName" description="fnd0_NXLicenseServerName.desc" value="" type="string" isArray="false" isVisible="true" isEditable="true" isOptional="false" isQuickInstallParameter="true" isModifiableAfterInstall="false" validators="noEmptyFieldValidator,noTrailingSpaceValidator,noSpaceValidator">
+		</property>
+		<property name="fnd0_NXUILanguage" displayName="fnd0_NXUILanguage.displayName" description="fnd0_NXUILanguage.desc" value="Russian*,English" type="list" isArray="true" isVisible="true" isEditable="true" isOptional="false" isQuickInstallParameter="true" isModifiableAfterInstall="true">
+		</property>
+		<property name="fnd0_cadcamcaeNX.centralizedNXSettingsCheck" displayName="fnd0_cadcamcaeNX.centralizedNXSettingsCheck.displayName" description="fnd0_cadcamcaeNX.centralizedNXSettingsCheck.desc" value="true,false*" type="boolean" isArray="true" isVisible="true" isEditable="true" isOptional="true" isQuickInstallParameter="false" isModifiableAfterInstall="false">
+		</property>
+		<property name="fnd0_NXSiteSettingsPath" displayName="fnd0_NXSiteSettingsPath.displayName" description="fnd0_NXSiteSettingsPath.desc" value="" type="string" isArray="false" isVisible="true" isEditable="true" isOptional="true" isQuickInstallParameter="true" isModifiableAfterInstall="false" validators="noEmptyFieldValidator,noTrailingSpaceValidator,noSpaceValidator">
+		</property>
+		<property name="fnd0_cadcamcaeNX.connectToTCCheck" displayName="fnd0_cadcamcaeNX.connectToTCCheck.displayName" description="fnd0_cadcamcaeNX.connectToTCCheck.desc" value="true,false*" type="boolean" isArray="true" isVisible="true" isEditable="true" isOptional="true" isQuickInstallParameter="false" isModifiableAfterInstall="false">
+		</property>
+		<property name="fnd0_TCWebTierHostName" displayName="fnd0_TCWebTierHostName.displayName" description="fnd0_TCWebTierHostName.desc" value="" type="string" isArray="false" isVisible="true" isEditable="true" isOptional="true" isQuickInstallParameter="false" isModifiableAfterInstall="false" validators="noEmptyFieldValidator,noTrailingSpaceValidator,noSpaceValidator">
+		</property>
+		<property name="fnd0_TCWebTierPort" displayName="fnd0_TCWebTierPort.displayName" description="fnd0_TCWebTierPort.desc" value="7001" type="string" isArray="false" isVisible="true" isEditable="true" isOptional="true" isQuickInstallParameter="false" isModifiableAfterInstall="false" validators="portValidator,noEmptyFieldValidator,noTrailingSpaceValidator">
+		</property>
+		<property name="fnd0_TCFSCHostName" displayName="fnd0_TCFSCHostName.displayName" description="fnd0_TCFSCHostName.desc" value="" type="string" isArray="false" isVisible="true" isEditable="true" isOptional="true" isQuickInstallParameter="false" isModifiableAfterInstall="false" validators="noEmptyFieldValidator,noTrailingSpaceValidator,noSpaceValidator">
+		</property>
+		<property name="fnd0_TCFSCPort" displayName="fnd0_TCFSCPort.displayName" description="fnd0_TCFSCPort.desc" value="4544" type="string" isArray="false" isVisible="true" isEditable="true" isOptional="true" isQuickInstallParameter="false" isModifiableAfterInstall="false" validators="portValidator,noEmptyFieldValidator,noTrailingSpaceValidator">
+		</property>
+	</propertyContribution>
+</component>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+================================================================================
+Copyright 2015.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+-->
+<media>
+    <product_id>cadcamcae</product_id>
+    <product_display_name>For Workstations</product_display_name>
+    <application_id>cadStationKit001</application_id>
+    <application_display_name>Various</application_display_name>
+    <version>1.0.2</version>    
+    <customer>All</customer>
+    <rtm_type>Major</rtm_type>
+    <parent_release></parent_release>
+    <platform>wntx64</platform>
+   <application_dependency>
+       <!-- <application id="Foundation" release="11.2.3"/> -->
+    </application_dependency>  
+    <description>This bundle for installing the popular CAD software: NX, SE, Teamcenter Visualization and so on</description>    
+</media>
+

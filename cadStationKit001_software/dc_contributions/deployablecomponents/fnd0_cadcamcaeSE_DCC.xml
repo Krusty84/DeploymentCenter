@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="fnd0_cadcamcaeSE" owningProduct="cadcamcae" visible="true" optional="true" cardinality="*">
+    <displayName value="fnd0_cadcamcaeSE.displayName"/>
+    <description value="fnd0_cadcamcaeSE.desc"/>
+    <version value="1.0.0" />
+    <icon value="typeComponentTcThinClient48.svg" />
+
+    <featureArtifacts>
+        <supportedType value="fnd0_cadcamcaeSEArtifact" />
+    </featureArtifacts>
+
+    <propertyContribution>
+        <!-- Machine Settings -->
+        <property name="fnd0_cadcamcaeSE.dc0_machine_name" displayName="fnd0_cadcamcaeSE.dc0_machine_name.displayName" description="fnd0_cadcamcaeSE.dc0_machine_name.desc" value="" type="Machine" isArray="false" isVisible="true" isEditable="true" isOptional="false" isQuickInstallParameter="true" isModifiableAfterInstall="false" validators="noEmptyFieldValidator,noTrailingSpaceValidator,noSpaceValidator,machinePlatformValidator,machineNameIEEEValidator">
+        </property>
+
+        <property name="fnd0_cadcamcaeSE.dc0_machine_platform" displayName="fnd0_cadcamcaeSE.dc0_machine_platform.displayName" description="fnd0_cadcamcaeSE.dc0_machine_platform.desc" value="wntx64" type="PlatformSelectionList" isArray="true" isVisible="true" isEditable="true" isOptional="false" isQuickInstallParameter="true" isModifiableAfterInstall="false">
+        </property>
+
+        <property name="fnd0_cadcamcaeSE.massDeployCheck" displayName="fnd0_cadcamcaeSE.massDeployCheck.displayName" description="fnd0_cadcamcaeSE.massDeployCheck.desc" value="true*,false" type="boolean" isArray="true" isVisible="true" isEditable="true" isOptional="false" isQuickInstallParameter="true" isModifiableAfterInstall="false">
+        </property>
+
+        <!-- General  Settings -->
+        <property name="fnd0_SEInstallationPath" displayName="fnd0_SEInstallationPath.displayName" description="fnd0_SEInstallationPath.desc" value="C:\Siemens\SE" type="Directory" isArray="false" isVisible="true" isEditable="true" isOptional="false" isQuickInstallParameter="true" isModifiableAfterInstall="false" validators="platformValidator,installationPathValidator">
+        </property>
+
+        <property name="fnd0_SELisenseServer" displayName="fnd0_SELisenseServer.displayName" description="fnd0_SELisenseServer.desc" value="28000@" type="Directory" isArray="false" isVisible="true" isEditable="true" isOptional="false" isQuickInstallParameter="false" isModifiableAfterInstall="false" validators="noEmptyFieldValidator,noTrailingSpaceValidator,noSpaceValidator,machinePlatformValidator,machineNameIEEEValidator,portValidator">
+        </property>
+
+    </propertyContribution>
+
+</component>

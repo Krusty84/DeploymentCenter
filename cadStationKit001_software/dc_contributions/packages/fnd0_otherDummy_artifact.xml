@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2018.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved. ==================================================
+@<COPYRIGHT>@
+-->
+<artifact artifactType="fnd0_otherDummyArtifact" guid="2295bb00a7f04bd79cb000da0ef92100">
+	<supportedOS>
+		<os name="windows" version="5.1" arch="64" />
+	</supportedOS>
+	<deploymentActions>
+		<install>
+			<target name="fileProcessing" description="Perform the file deployment actions including unzip, copy, and delete.">
+			</target>
+			<target name="preDatabaseUpdate" description="Perform the operations that must be completed prior to the database being updated.">
+			</target>
+			<target name="databaseUpdate" description="Perform the operations that must be completed prior to the database being updated.">
+			</target>
+			<target name="postDatabaseUpdate" description="Perform the operations that must be completed after the database update has occurred.">
+			</target>
+		</install>
+		<update>
+		</update>
+	</deploymentActions>
+</artifact>

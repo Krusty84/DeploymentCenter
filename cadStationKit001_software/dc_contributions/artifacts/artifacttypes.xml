@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<artifacts application="platform" product="Teamcenter">
+	<artifact artifactType="fnd0_cadKITArtifact" displayName="fnd0_cadKITArtifact.displayName" desc="fnd0_cadKITArtifact.desc" />
+</artifacts>

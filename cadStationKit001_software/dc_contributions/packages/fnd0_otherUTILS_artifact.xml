@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2018.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved. ==================================================
+@<COPYRIGHT>@
+-->
+<artifact artifactType="fnd0_otherUTILSArtifact" guid="0000bb22a7f04db79cb758da0ef92171">
+	<supportedOS>
+		<os name="windows" version="5.1" arch="64" />
+	</supportedOS>
+	<deploymentActions>
+		<install>
+			<target name="envSettings" description="Perform the installing other utils">
+				<if>
+					<equals arg1="${fnd0_otherUTILS.7zIsNeed}" arg2="true" />
+					<then>
+						<exec dir="${cadcamcae_cadStationKit001_path}/OTHER" executable="cmd" failonerror="true" osfamily="windows">
+							<arg value="/c" />
+							<arg value="7z1900-x64.exe /S /D=${fnd0_7ZInstallationPath}" />
+						</exec>
+					</then>
+				</if>
+				<if>
+					<equals arg1="${fnd0_otherUTILS.NotepadPlusPlusIsNeed}" arg2="true" />
+					<then>
+						<exec dir="${cadcamcae_cadStationKit001_path}/OTHER" executable="cmd" failonerror="true" osfamily="windows">
+							<arg value="/c" />
+							<arg value="npp.8.1.5.Installer.exe /S /D=${fnd0_NotepadPlusPlusInstallationPath}" />
+						</exec>
+					</then>
+				</if>
+				<if>
+					<equals arg1="${fnd0_otherUTILS.UCIsNeed}" arg2="true" />
+					<then>
+						<exec dir="${cadcamcae_cadStationKit001_path}/OTHER" executable="cmd" failonerror="true" osfamily="windows">
+							<arg value="/c" />
+							<arg value="uncomsetup.exe /VERYSILENT /DIR=${fnd0_UCInstallationPath}" />
+						</exec>
+					</then>
+				</if>
+			</target>
+			<target name="fileProcessing" description="Perform the file deployment actions including unzip, copy, and delete.">
+			</target>
+			<target name="preDatabaseUpdate" description="Perform the operations that must be completed prior to the database being updated.">
+			</target>
+			<target name="databaseUpdate" description="Perform the operations that must be completed prior to the database being updated.">
+			</target>
+			<target name="postDatabaseUpdate" description="Perform the operations that must be completed after the database update has occurred.">
+			</target>
+		</install>
+	</deploymentActions>
+</artifact>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="fnd0_dmuDummy" owningProduct="cadcamcae" visible="true" optional="false" cardinality="*">
+	<displayName value="fnd0_dmuDummy.displayName" />
+	<description value="fnd0_dmuDummy.desc" />
+	<version value="1.0.0" />
+	<icon value="typeComponentTcThinClient48.svg" />
+	<featureArtifacts>
+		<supportedType value="fnd0_dmuDummyArtifact" />
+	</featureArtifacts>
+	<propertyContribution>
+		<!--
+		<property name="fnd0_cadcamcaeNX.dc0_machine_name" displayName="fnd0_cadcamcaeNX.dc0_machine_name.displayName" description="fnd0_cadcamcaeNX.dc0_machine_name.desc" value="" type="Machine" isArray="false" isVisible="true" isEditable="true" isOptional="false" isQuickInstallParameter="true" isModifiableAfterInstall="false" validators="noEmptyFieldValidator,noTrailingSpaceValidator,noSpaceValidator,machinePlatformValidator,machineNameIEEEValidator">
+		</property>
+		
+		<property name="fnd0_cadcamcaeNX.dc0_machine_platform" displayName="fnd0_cadcamcaeNX.dc0_machine_platform.displayName" description="fnd0_cadcamcaeNX.dc0_machine_platform.desc" value="wntx64*" type="PlatformSelectionList" isArray="true" isVisible="true" isEditable="true" isOptional="false" isQuickInstallParameter="true" isModifiableAfterInstall="false">
+		</property>
+		
+		<property name="fnd0_cadcamcaeNX.massDeployCheck" displayName="fnd0_cadcamcaeNX.massDeployCheck.displayName" description="fnd0_cadcamcaeNX.massDeployCheck.desc" value="true*,false" type="boolean" isArray="true" isVisible="true" isEditable="true" isOptional="false" isQuickInstallParameter="true" isModifiableAfterInstall="false">
+		</property>
+		
+		
+		<property name="fnd0_NXInstallationPath" displayName="fnd0_NXInstallationPath.displayName" description="fnd0_NXInstallationPath.desc" value="C:\\\\Siemens\\\\NX" type="InstallDirectory" isArray="false" isVisible="true" isEditable="true" isOptional="false" isQuickInstallParameter="true" isModifiableAfterInstall="false" validators="platformValidator,installationPathValidator">
+		</property>
+		
+		<property name="fnd0_NXLisenseServer" displayName="fnd0_NXLisenseServer.displayName" description="fnd0_NXLisenseServer.desc" value="28000@" type="string" isArray="false" isVisible="true" isEditable="true" isOptional="false" isQuickInstallParameter="true" isModifiableAfterInstall="false" validators="noEmptyFieldValidator,noTrailingSpaceValidator,noSpaceValidator,machinePlatformValidator,machineNameIEEEValidator,portValidator">
+		</property>
+		-->
+	</propertyContribution>
+</component>

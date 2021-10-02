@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2018.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved. ==================================================
+@<COPYRIGHT>@
+-->
+<artifact artifactType="fnd0_dmuTCVISArtifact" guid="2295JJDDa7f04db00cb758da0eq92171">
+	<supportedOS>
+		<os name="windows" version="5.1" arch="64" />
+	</supportedOS>
+	<deploymentActions>
+		<install>
+			<target name="envSettings" description="Perform the installing Teamcenter Visualiztion">
+				<exec dir="${cadcamcae_cadStationKit001_path}/TCVIS/scripts/" executable="cmd" failonerror="true" osfamily="windows">
+					<arg value="/c" />
+					<arg value="SEVInstall.bat -INSTALLDIR=${fnd0_TCVISInstallationPath} -LICSRVNAME=${fnd0_TCVISLicenseServerName} -LICSRVPORT=${fnd0_TCVISLicenseServerPort}" />
+				</exec>
+			</target>
+			<target name="fileProcessing" description="Perform the file deployment actions including unzip, copy, and delete.">
+			</target>
+			<target name="preDatabaseUpdate" description="Perform the operations that must be completed prior to the database being updated.">
+			</target>
+			<target name="databaseUpdate" description="Perform the operations that must be completed prior to the database being updated.">
+			</target>
+			<target name="postDatabaseUpdate" description="Perform the operations that must be completed after the database update has occurred.">
+			</target>
+		</install>
+		<update>
+		</update>
+	</deploymentActions>
+</artifact>

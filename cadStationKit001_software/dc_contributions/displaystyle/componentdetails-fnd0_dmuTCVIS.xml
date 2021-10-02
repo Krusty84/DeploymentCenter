@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<displayStyle xmlns="http://www.siemens.com/deploymentcenter/model/common/jaxb" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.siemens.com/deploymentcenter/model/common/jaxb  ../schema/common-display-style.xsd">
+	<componentPropertyDisplayType id="selectedComponentPropertiesDisplay">
+		<refObject id="deployedComponentMap">
+			<refRowInstance whereAttributeId="deployableCompName" val="fnd0_dmuTCVIS" />
+			<propertyGroup id="fnd0_clientSettings" sequence="1">
+				<property id="fnd0_dmuTCVIS.massDeployCheck" type="reacting" size="50" maxLength="50" description="true">
+					<choice value="true">
+						<propertyGroup>
+							<propertySubGroup id="fnd0_massClientInstance">
+								<property id="fnd0_dmuTCVIS.dc0_machine_name" reacting="true" overrideDisplayName="dc0_instance_name" size="80" maxLength="80" />
+								<property id="fnd0_dmuTCVIS.dc0_machine_platform" size="50" maxLength="80" reacting="true" />
+							</propertySubGroup>
+						</propertyGroup>
+					</choice>
+					<choice value="false">
+						<propertyGroup>
+							<propertySubGroup id="machine">
+								<property id="fnd0_dmuTCVIS.dc0_machine_name" reacting="true" size="80" maxLength="80" />
+								<property id="fnd0_dmuTCVIS.dc0_machine_platform" size="50" maxLength="80" reacting="true" />
+							</propertySubGroup>
+						</propertyGroup>
+					</choice>
+				</property>
+			</propertyGroup>
+			<propertyGroup id="generalSettings" sequence="2">
+				<property id="fnd0_TCVISInstallationPath" size="80" maxLength="260" />
+				<property id="fnd0_TCVISLicenseServerName" size="80" maxLength="260" />
+				<property id="fnd0_TCVISLicenseServerPort" size="80" maxLength="260" />
+			</propertyGroup>
+		</refObject>
+	</componentPropertyDisplayType>
+</displayStyle>
