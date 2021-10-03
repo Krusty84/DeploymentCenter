@@ -1,1 +1,1 @@
-This is a repository with various items for Deployment Center 4.1.0
+Push the cadStationKit001_software to the repository folder of your Deployment Center
