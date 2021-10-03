@@ -1,0 +1,1 @@
+This is a kit for Deploying Center 4.1.0, it will allow you installing NX, Teamcenter Visualization and any software via Deployment Center

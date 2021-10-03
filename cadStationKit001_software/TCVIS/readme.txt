@@ -1,0 +1,1 @@
+put your Teamcenter Visualization distributive here and use SEVInstall.bat instead of OOTB
