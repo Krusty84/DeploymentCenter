@@ -14,14 +14,14 @@ All Rights Reserved. ==================================================
 	<deploymentActions>
 		<install>
 			<target name="envSettings" description="Perform the installing NX">
-				<!-- <exec executable="msiexec.exe" resultproperty="InstallErrCode">
+				<exec executable="msiexec.exe" resultproperty="InstallErrCode">
 					<arg value="/qn" />
 					<arg value="/i" />
 					<arg value="${cadcamcae_cadStationKit001_path}\NX\nx\SiemensNX.msi" />
 					<arg value="ADDLOCAL=ALL" />
 					<arg value="INSTALLDIR=${fnd0_NXInstallationPath}" />
 					<arg value="LICENSESERVER=${fnd0_NXLicenseServerPort}@${fnd0_NXLicenseServerName}" />
-				</exec> -->
+				</exec>
 			</target>
 			<target name="fileProcessing" description="Perform the file deployment actions including unzip, copy, and delete.">
 			</target>
